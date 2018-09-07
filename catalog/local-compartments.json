@@ -1,0 +1,4611 @@
+{
+  "name": [
+    "root"
+  ],
+  "subcompartments": [
+    {
+      "name": [
+        "CPC: 01111: Wheat, seed"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01112: Wheat, other"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01121: Maize (corn), seed"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01122: Maize (corn), other"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01132: Rice paddy, other (not husked)"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01151: Barley, seed"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01152: Barley, other"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01161: Rye, seed"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01162: Rye, other"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01171: Oats, seed"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01212: Cabbages"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01229: Cantaloupes and other melons"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01232: Cucumbers and gherkins"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01234: Tomatoes"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01243: Broad beans and horse beans, green"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01260: Vegetable seeds, except beet seeds"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01290: Vegetables, fresh, n.e.c."
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01314: Dates"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01323: Oranges"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01324: Tangerines, mandarins, clementines"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01330: Grapes"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01352: Kiwi fruit"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01354: Strawberries"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01371: Almonds, in shell"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01411: Soya beans, seed for planting"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01412: Soya beans, other"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 0143: Cottonseed"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01441: Linseed"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01443: Rape or colza seed"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01445: Sunflower seed"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01491: Palm nuts and kernels"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01510: Potatoes"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01620: Tea leaves"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01640: Cocoa beans"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01801: Sugar beet"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01803: Sugar beet seeds"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01809: Other sugar crops n.e.c."
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01911: Maize for forage and silage"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01912: Alfalfa for forage and silage"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01913: Cereal straw, husks, unprepared, ground, pressed, or in the form of pellets"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01919: Forage products, n.e.c."
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01921: Cotton, whether or not ginned"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01922: Jute, kenaf, and other textile bast fibres, raw or retted, except flax, true hemp and ramie"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 0192: Fibre crops"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01930: Plants and parts of plants used primarily in perfumery, in pharmacy, or for insecticidal, fungicidal or simila[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01940: Beet seeds (excluding sugar beet seeds) and seeds of forage plants"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 01961: Live plants; bulbs, tubers and roots; cuttings and slips; mushroom spawn"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 02111: Cattle"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 02122: Sheep"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 02140: Swine / pigs"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 02942: Pulled wool, greasy, including fleece-washed pulled wool; coarse animal hair"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 031: Wood in the rough"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 03220: Natural cork, raw or simply prepared"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 11010: Hard coal"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 11020: Patent fuel and similar solid fuels manufactured from hard coal"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 11030: Brown coal"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 11040: Brown coal briquettes and similar solid fuels manufactured from brown coal"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 11050: Peat"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 12010: Petroleum oils and oils obtained from bituminous minerals, crude"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 12020: Natural gas, liquefied or in the gaseous state"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 12030: Bituminous or oil shale and tar sands"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 13000: Uranium and thorium ores and concentrates"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 14100: Iron ores and concentrates, other than roasted iron pyrites"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 14220: Nickel ores and concentrates"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 14290: Other non-ferrous metal ores and concentrates (other than uranium or thorium ores and concentrates)"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 15120: Marble and other calcareous monumental or building stone"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 15130: Granite, sandstone and other monumental or building stone"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 15200: Gypsum; anhydrite; limestone flux; limestone and other calcareous stone, of a kind used for the manufacture of[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 15310: Natural sands"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 15320: Pebbles, gravel, broken or crushed stone, macadam; granules, chippings and powder of stone"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 15400: Clays"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 15: Stone, sand and clay"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 16190: Other chemical minerals"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 161: Chemical and fertilizer minerals"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 16200: Salt and pure sodium chloride; sea water"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 16330: Chalk and dolomite"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 16390: Other minerals n.e.c."
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 17200: Coal gas, water gas, producer gas and similar gases, other than petroleum gases and other gaseous hydrocarbons"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 17300: Steam and hot water"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 18000: Natural water"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 21419: Other dried fruit, n.e.c."
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 21429: Other shelled nuts"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 21611: Soya bean oil, crude"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 21651: Palm oil, crude"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 21661: Coconut oil, crude"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 21681: Cottonseed oil, crude"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 21682: Cottonseed oil, refined"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 216: Vegetable oils"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 21920: Flours and meals of oil seeds or oleaginous fruits, except those of mustard"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 22110: Processed liquid milk"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 22130: Whey"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 22230: Yoghurt and other fermented or acidified milk and cream"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 22241: Butter and other fats and oils derived from milk of cattle"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 22251: Cheese from milk of cattle, fresh or processed"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 23220: Starches; inulin; wheat gluten; dextrins and other modified starches"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 23319: Preparations used in animal feeding n.e.c."
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 23512: Beet sugar"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 23540: Molasses"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 23999: Other food products n.e.c."
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 24: Beverages"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 26380: Yarn of vegetable textile fibres other than cotton (including flax, jute, coir and true hemp); paper yarn"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 26570: Woven fabrics of jute and other textile bast fibres (except flax, true hemp and ramie)"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 266: Woven fabrics (except special fabrics) of cotton"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 27922: Nonwovens"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 28190: Other knitted or crocheted fabrics"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 31101: Wood, sawn or chipped lengthwise, sliced or peeled, of a thickness exceeding 6 mm, of coniferous wood "
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 31102: Wood, sawn or chipped lengthwise, sliced or peeled, of a thickness exceeding 6 mm, of non-coniferous wood "
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 31220: Wood wool; wood flour"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 31230: Wood in chips or particles"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 3141: Plywood consisting solely of sheets of wood, except of bamboo"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 3142: Other plywood, veneered panels and similar laminated wood, except of bamboo"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 31431: Particle board"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 31441: Medium density fibreboard (MDF)"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 31449: Other fibreboard"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 31450: Plywood, veneer panels and similar laminated wood of bamboo"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 31600: Builders' joinery and carpentry of wood (including cellular wood panels, assembled parquet panels, shingles an[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 31700: Packing cases, boxes, crates, drums and similar packings, of wood; cable-drums of wood; pallets, box pallets a[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 31: Products of wood, cork, straw and plaiting materials"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 32113: Mechanical wood pulp; semi-chemical wood pulp; pulps of fibrous cellulosic material other than wood"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 32133: Other uncoated kraft paper and paperboard; sack kraft paper, creped or crinkled"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 32151: Corrugated paper and paperboard"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 32153: Cartons, boxes, cases, record sleeves and other packing containers (except bags) of paper, paperboard, cellulo[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 321: Pulp, paper and paperboard"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 32690: Other printed matter"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 33100: Coke and semi-coke of coal, of lignite or of peat; retort carbon"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 33330: Naphtha"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 3334: Kerosenes"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 33350: White spirit and special boiling point industrial spirits"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 33360: Gas oil"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 33370: Fuel oils n.e.c."
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 333: Petroleum oils and oils obtained from bituminous materials, other than crude; preparations n.e.c. containing by [\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 33410: Propane and butanes, liquefied"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 33421: Ethylene, propylene, butylene, butadiene"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 334: Petroleum gases and other gaseous hydrocarbons, except natural gas"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 33500: Petroleum jelly; paraffin wax, micro- crystalline petroleum wax, slack wax, ozokerite, lignite wax, peat wax, [\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 33620: Uranium enriched in U235 and its compounds; plutonium and its compounds; alloys, dispersions, ceramic products[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 33690: Other radioactive elements and isotopes and compounds; alloys, dispersions, ceramic products and mixtures cont[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 33710: Fuel elements (cartridges), non-irradiated, for nuclear reactors"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 33720: Spent (irradiated) fuel elements (cartridges) of nuclear reactors"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 33: Coke oven products; refined petroleum products; nuclear fuel"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34110: Hydrocarbons and their halogenated, sulphonated, nitrated or nitrosated derivatives"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34120: Industrial monocarboxylic fatty acids; acid oils from refining"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34139: Other alcohols, phenols, phenol-alcohols, and their halogenated, sulphonated, nitrated or nitrosated derivativ[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34140: Carboxylic acids and their anhydrides, halides, peroxides and peroxyacids and their halogenated, sulphonated, [\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34150: Amine-function compounds; oxygen-function amino-compounds, except lysine and its esters and salts thereof and [\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34160: Organo-sulphur compounds and other organo-inorganic compounds; heterocyclic compounds n.e.c.; nucleic acids an[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34170: Ethers, alcohol peroxides, ether peroxides, epoxides, acetals and hemiacetals, and their halogenated, sulphona[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 341: Basic organic chemicals"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34210: Hydrogen, nitrogen, oxygen, carbon dioxide and rare gases; inorganic oxygen compounds of non-metals n.e.c."
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34220: Zinc oxide; zinc peroxide; chromium oxides and hydroxides; manganese oxides; iron oxides and hydroxides; earth[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34231: Chemical elements n.e.c.; inorganic acids except phosphoric, nitric and sulphonitric; inorganic oxygen compoun[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34232: Phosphoric acid"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34233: Nitric acid, sulphonitric acids"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34240: Phosphates of triammonium; salts and peroxysalts of inorganic acids and metals n.e.c."
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34250: Salts of oxometallic or peroxometallic acids; colloidal precious metals and compounds thereof; inorganic and o[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34260: Isotopes n.e.c. and compounds thereof (including heavy water)"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34270: Cyanides, cyanide oxides and complex cyanides; fulminates, cyanates and thiocyanates; silicates; borates; perb[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34280: Hydrogen peroxide; phosphides; carbides; hydrides, nitrides, azides, silicides and borides"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34290: Compounds of rare earth metals, of yttrium or of scandium"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 342: Basic inorganic chemicals n.e.c."
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34310: Synthetic organic colouring matter and preparations based thereon; synthetic organic products of a kind used a[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34400: Activated natural mineral products; animal black; tall oil; terpenic oils produced by the treatment of conifer[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34510: Wood charcoal"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34520: Sulphur, except sublimed sulphur, precipitated sulphur and colloidal sulphur"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34530: Roasted iron pyrites"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34540: Oils and other products of the distillation of high temperature coal tar, and similar products; pitch and pitc[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34570: Glycerol"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 345: Miscellaneous basic chemical products"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34611: Urea"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34612: Ammonium sulphate"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34613: Ammonium nitrate"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 3461: Mineral or chemical fertilizers, nitrogenous"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34629: Other phosphatic fertilizers, n.e.c."
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 3462: Mineral or chemical fertilizers, phosphatic"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34631: Potassium chloride (muriate of potash)"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34632: Potassium sulphate (sulphate of potash)"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 3463: Mineral or chemical fertilizers, potassic"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34646: Potassium nitrate"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34653: Ammonium chloride; nitrites"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34654: Excreta of animals useful for manure/fertilizer and fuel preparation"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34659: Fertilizers n.e.c."
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34661: Insecticides"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34662: Fungicides"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34663: Herbicides, anti-sprouting products and plant-growth regulators"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 3466: Insecticides, fungicides, herbicides and disinfectants"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 346: Fertilizers and pesticides"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34710: Polymers of ethylene, in primary forms"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34720: Polymers of styrene, in primary forms"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34730: Polymers of vinyl chloride or other halogenated olefins, in primary forms"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34740: Polyacetals, other polyethers and epoxide resins, in primary forms; polycarbonates, alkyd resins, polyallyl es[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34790: Other plastics in primary forms; ion exchangers"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 347: Plastics in primary forms"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34800: Synthetic rubber and factice derived from oils, and mixtures thereof with natural rubber and similar natural g[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 34: Basic chemicals"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 35110: Paints and varnishes and related products"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 35130: Printing ink"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 35230: Lactones n.e.c., heterocyclic compounds with nitrogen hetero-atom(s) only, containing an unfused pyrazole ring[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 35310: Organic surface active agents, except soap"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 35321: Soap; organic surface-active products and preparations for use as soap; paper, wadding, felt and nonwovens, im[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 353: Soap, cleaning preparations, perfumes and toilet preparations"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 35491: Biodiesel"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 35499: Other chemical products n.e.c."
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 355: Man-made fibres"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 36230: Tubes, pipes and hoses of vulcanized rubber other than hard rubber"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 36320: Tubes, pipes and hoses, and fittings therefor, of plastics"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 36330: Plates, sheets, film, foil and strip, of plastics, not self-adhesive, non-cellular and not reinforced, laminat[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 363: Semi-manufactures of plastics"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 36990: Articles of plastics n.e.c."
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 37111: Glass in the mass, in balls (except microspheres), rods or tubes, unworked; waste and scrap of glass"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 37114: Glass in sheets, bent, edge-worked, engraved, drilled, enamelled or otherwise worked, but not framed, etc."
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 37116: Glass mirrors; multiple walled insulating units of glass"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 37117: Paving blocks, bricks, tiles and other articles of pressed or moulded glass, of a kind used for building or co[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 3712: Glass fibres and articles thereof, except woven fabrics"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 37191: Bottles, jars, phials and other containers, of glass, of a kind used for the conveyance or packing of goods, e[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 3719: Other glass articles"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 37330: Refractory cements, mortars, concretes and similar compositions n.e.c."
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 373: Refractory products and structural non-refractory clay products"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 37410: Plasters"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 37420: Quicklime, slaked lime and hydraulic lime"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 37430: Cement clinkers"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 37440: Portland cement, aluminous cement, slag cement and similar hydraulic cements, except in the form of clinkers"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 374: Plaster, lime and cement"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 37530: Articles of plaster or of compositions based on plaster"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 37540: Tiles, flagstones, bricks and similar articles, of cement, concrete or artificial stone"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 37570: Articles of asbestos-cement, cellulose fibre-cement or the like"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 37690: Other worked monumental or building stone and articles thereof; other artificially coloured granules, chipping[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 37930: Articles of asphalt or of similar material"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 37940: Bituminous mixtures based on natural and artificial stone materials and bitumen, natural asphalt or related su[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 37990: Non-metallic mineral products n.e.c. (including mineral wool, expanded mineral materials, worked mica, article[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 379: Other non-metallic mineral products n.e.c."
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 37: Glass and glass products and other non-metallic products n.e.c."
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 38703: Prefabricated buildings, of plastics"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 3870: Prefabricated buildings"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 39110: Raw offal, inedible (including pigs' bristles, horse hair, animal guts, bird skins, feathers, bones and ivory)"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 39120: Bran and other residues from the working of cereals or legumes; vegetable materials and vegetable waste, veget[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 39141: Bagasse"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 39149: Beet-pulp and other waste of sugar manufacture"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 391: Wastes from food and tobacco industry"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 39240: Waste and scrap of paper or paperboard"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 39260: Used pneumatic tyres of rubber"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 39270: Waste, parings and scrap of plastics"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 39281: Wood pellets"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 39283: Non-agglomerated wood waste and scrap"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 3928: Sawdust and wood waste and scrap"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 39310: Slag, dross, scalings and other waste from the manufacture of iron or steel"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 3933: Waste and scrap of precious metal"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 39361: Waste and scrap of copper"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 39362: Waste and scrap of nickel"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 39363: Waste and scrap of aluminium"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 39364: Waste and scrap of lead"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 39365: Waste and scrap of zinc"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 39366: Waste and scrap of tin"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 39367: Waste and scrap of tungsten, molybdenum, tantalum, magnesium, cobalt, cadmium, titanium, zirconium, beryllium [\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 3936: Waste and scrap of other metals"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 39370: Vessels and other floating structures for breaking up"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 393: Metal wastes or scraps"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 39910: Municipal waste"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 39920: Sewage sludge"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 39931: Pharmaceutical waste"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 39950: Wastes from chemical or allied industries"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 39990: Other wastes n.e.c."
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 39: Wastes or scraps"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 41111: Pig iron and spiegeleisen in pigs, blocks or other primary forms"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 41112: Ferro-manganese"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 41114: Ferro-nickel"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 41115: Other ferro-alloys"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 41116: Ferrous products obtained by direct reduction of iron ore and other spongy ferrous products, in lumps, pellets[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 41117: Granules and powders, of pig iron and spiegeleisen, or steel"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 4111: Primary materials of the iron and steel industry"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 41121: Non-alloy steel in ingots or other primary forms, and semi-finished products of non-alloy steel"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 41122: Alloy steel in ingots or other primary forms and semi-finished products of alloy steel"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 4121: Flat-rolled products of steel, not further worked than hot-rolled"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 4124: Bars and rods, hot-rolled, of iron or steel"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 4128: Tubes, pipes and hollow profiles, of steel"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 412: Products of iron or steel"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 41310: Silver (including silver plated with gold or platinum), unwrought or in semi-manufactured forms, or in powder [\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 41320: Gold (including gold plated with platinum), unwrought or in semi-manufactured forms, or in powder form"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 41330: Platinum, unwrought or in semi-manufactured forms, or in powder form"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 41411: Copper mattes; cement copper"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 41412: Unrefined copper; copper anodes for electrolytic refining"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 41413: Refined copper and copper alloys, unwrought; master alloys of copper"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 41422: Unwrought nickel"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 41431: Unwrought aluminium"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 41432: Alumina (aluminium oxide), except artificial corundum"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 41441: Lead, unwrought"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 41442: Zinc, unwrought"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 41443: Tin, unwrought"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 41513: Wire of copper"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 4151: Semi-finished products of copper or copper alloys"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 41531: Powders and flakes of aluminium"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 4153: Semi-finished products of aluminium or aluminium alloys"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 41601: Tungsten, molybdenum, tantalum, magnesium, cobalt, cadmium, titanium, zirconium, beryllium, gallium, hafnium, [\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 41603: Bismuth, antimony, manganese, chromium and articles thereof; including waste and scrap of bismuth or manganese"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 4160: Other non-ferrous metals and articles thereof (including waste and scrap of some metals); cermets and articles [\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 42120: Doors, windows and their frames and thresholds for doors, of iron, steel or aluminium"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 42190: Other structures (except prefabricated buildings) and parts of structures, of iron, steel or aluminium; plates[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 42210: Reservoirs, tanks, vats and similar containers (other than for compressed or liquefied gas), of iron, steel or[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 42220: Containers for compressed or liquefied gas, of iron, steel or aluminium"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 42950: Wire, rods, tubes, plates, electrodes and similar products, of base metal or of metal carbides, coated or core[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 4312: Internal combustion engines of a kind used for motor vehicles"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 43143: Gas turbines other than turbo-jets and turbo-propellers"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 431: Engines and turbines and parts thereof"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 43230: Air or vacuum pumps; air or other gas compressors"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 432: Pumps, compressors, hydraulic and pneumatic power engines, and valves, and parts thereof"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 43410: Furnace burners for liquid fuel, for pulverized solid fuel or for gas; mechanical stokers, mechanical grates, [\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 43420: Industrial or laboratory furnaces and ovens, except non-electric bakery ovens; other industrial or laboratory [\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 43430: Parts for the goods of subclasses 43410 and 43420; parts of non-electric bakery ovens"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 43550: Pneumatic and other continuous action elevators and conveyors, for goods or materials"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 43911: Producer gas or water gas generators; acetylene gas generators and similar water process gas generators; disti[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 43913: Refrigerating and freezing equipment and heat pumps, except household type equipment"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 43914: Filtering or purifying machinery and apparatus, for liquids or gases, except oil filters, petrol filters and a[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 4393: General-purpose machinery n.e.c."
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 43941: Parts of producer gas or water gas generators; parts of acetylene gas generators and similar water process gas[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 439: Other general-purpose machinery and parts thereof"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 44114: Manure spreaders and fertilizer distributors"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 4414: Agricultural tractors"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 441: Agricultural or forestry machinery and parts thereof"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 4421: Machine-tools for working metal; machine-tools for working any material by laser or similar process"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 44310: Converters, ladles, ingot moulds and casting machines, of a kind used in metallurgy or in metal foundries; met[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 44427: Mechanical shovels, excavators and shovel loaders, except front-end shovel loaders and machinery with a 360-de[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 444: Machinery for mining, quarrying and construction, and parts thereof"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 44614: Auxiliary machinery for use with machines for textile extruding, preparing, spinning, weaving, knitting or the[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 44815: Fans and ventilating or recycling hoods of the domestic type"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 44825: Central heating boilers, for producing hot water or low pressure steam"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 44831: Parts of the following appliances: electromechanical domestic appliances, shavers and hairclippers, with self-[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 44913: Machinery for making pulp of fibrous cellulosic material or for making or finishing paper or paperboard; machi[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 44922: Parts for the goods of subclasses 44914, 44917 and 45150"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 4492: Parts n.e.c. for special-purpose machinery"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 45230: Automatic data processing machines, comprising in the same housing at least a central processing unit and an i[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 45261: Input peripherals (keyboard, joystick, mouse etc.)"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 45264: Laser printers used with data processing machines"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 45271: Fixed media storage units"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 45272: Removable media storage units"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 46113: Electric generating sets and rotary converters"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 4611: Electric motors, generators and the like"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 46121: Electrical transformers"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 46131: Parts of electric motors, generators and the like"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 4613: Parts for the goods of classes 4611 and 4612"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 461: Electric motors, generators and transformers, and parts thereof"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 462: Electricity distribution and control apparatus, and parts thereof"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 46310: Insulated winding wire"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 463: Insulated wire and cable; optical fibre cables"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 46410: Primary cells and primary batteries"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 46420: Electric accumulators"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 46430: Parts of primary cells, primary batteries and electric accumulators (including separators)"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 464: Accumulators, primary cells and primary batteries, and parts thereof"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 46910: Electrical ignition or starting equipment of a kind used for internal combustion engines; generators and cut-o[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 46950: Carbon electrodes, carbon brushes, lamp carbons, battery carbons and other articles of graphite or other carbo[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 46960: Parts for the goods of subclasses 46910, 46921 and 46929; electrical parts n.e.c. of machinery or apparatus"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 46: Electrical machinery and apparatus"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 47110: Electrical capacitors"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 47120: Electrical resistors (except heating resistors)"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 47130: Printed circuits"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 47140: Thermionic, cold cathode or photo-cathode valves and tubes (including cathode ray tubes)"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 47150: Diodes, transistors and similar semi-conductor devices; photosensitive semi-conductor devices; light emitting [\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 47160: Electronic integrated circuits"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 47173: Parts for the goods of subclasses 47140 to 47160"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 4717: Parts for the goods of classes 4711, 4712 and 4714 to 4716"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 471: Electronic valves and tubes; electronic components; parts thereof"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 47315: Monitors and projectors, principally used in an automatic data processing system"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 482: Instruments and appliances for measuring, checking, testing, navigating and other purposes, except optical instr[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 48354: Parts and accessories for the goods of subclass 48315"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 49112: Public-transport type passenger motor vehicles"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 49113: Motor cars and other motor vehicles principally designed for the transport of persons (except public-transport[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 49114: Motor vehicles n.e.c. for the transport of goods"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 49119: Special-purpose motor vehicles n.e.c."
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 49129: Other parts and accessories n.e.c. of motor vehicles (including brakes, gear boxes, axles, road wheels, suspen[\u2026]"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 49221: Containers specially designed and equipped for carriage by one or more modes of transport"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 49312: Tankers (ships)"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 49314: Other vessels for the transport of goods and other vessels for the transport of both persons and goods"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 49320: Floating or submersible drilling or production platforms"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 4951: Rail locomotives and locomotive tenders"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 49621: Helicopters"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 49623: Aeroplanes and other powered aircraft of an unladen weight exceeding 2000 kg"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 49941: Parts and accessories of motorcycles and side-cars"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 4: Metal products, machinery and equipment"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 53121: Industrial buildings"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 531: Buildings"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 53211: Highways (except elevated highways), streets and roads"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 53212: Railways"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 53213: Airfield runways"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 53232: Harbours, waterways and related facilities"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 53241: Long-distance pipelines"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 53242: Long-distance communication and power lines (cables)"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 53251: Local pipelines"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 53252: Local cables and related works"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 53253: Sewage and water treatment plants"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 53261: Mining constructions"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 53262: Power plants"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 53269: Other constructions for manufacturing"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 53290: Other civil engineering works"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 532: Civil engineering works"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 54231: General construction services of aqueducts and other water supply conduits, except pipelines"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 54269: General construction services of other industrial plants"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 54290: General construction services of other civil engineering works"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 54320: Site formation and clearance services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 54330: Excavating and earthmoving services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 543: Site preparation services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 54590: Other special trade construction services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 5461: Electrical installation services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 54631: Heating equipment installation services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 54730: Painting services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 64119: Other land transportation services of passengers, n.e.c."
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 6424: Air transport services of passengers"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 64: Passenger transport services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 65111: Road transport services of freight by refrigerator vehicles"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 65119: Other road transport services of freight"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 6511: Road transport services of freight"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 65121: Railway transport services of freight by refrigerator cars"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 6512: Railway transport services of freight"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 65131: Transport services via pipeline of petroleum and natural gas"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 65211: Coastal and transoceanic water transport services of freight by refrigerator vessels"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 65212: Coastal and transoceanic water transport services of freight by tankers"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 65219: Other coastal and transoceanic water transport services of other freight"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 65221: Inland water transport services of freight by refrigerator vessels"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 65222: Inland water transport services of freight by tankers"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 65229: Other inland water transport services of freight"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 65319: Air transport services of other freight"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 65: Freight transport services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 7: Financial and related services; real estate services; and rental and leasing services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 83: Professional, technical and business services (except research, development, legal and accounting services)"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 85400: Packaging services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 85: Support services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 86111: Post-harvest crop services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 86112: Seed processing services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 86119: Other support services to crop production"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 86122: Support services to farm animal husbandry"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 8612: Animal husbandry services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 8614: Support and operation services to forestry and logging"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 86211: Support services to oil and gas extraction"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 86219: Support services to other mining"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 8621: Support services to mining"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 862: Support and operation services to mining"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 87141: Maintenance and repair services of motor vehicles"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 87149: Maintenance and repair services of other transport equipment"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 87152: Maintenance and repair services of electrical machinery and apparatus n.e.c."
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 87290: Maintenance and repair services of other goods n.e.c."
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 87360: Installation services of electrical machinery and apparatus n.e.c."
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 88150: Dairy product manufacturing services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 88311: Wood manufacturing services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 88531: Glass manufacturing services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 88601: Basic iron and steel manufacturing services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 88731: Metal treatment and coating services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 88732: General machining services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 88741: Electronic component and board manufacturing services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 88761: Engines and turbine manufacturing services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 88768: Power-driven hand tool manufacturing services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 89122: Services related to printing"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 89200: Moulding, pressing, stamping, extruding and similar plastic manufacturing services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 89320: Non-ferrous metal casting services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 89330: Metal forging, pressing, stamping, roll forming and powder metallurgy services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 893: Casting, forging, stamping and similar metal manufacturing services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 894: Materials recovery (recycling) services, on a fee or contract basis"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 94110: Sewerage and sewage treatment services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 94231: General waste collection services, residential"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 94339: Other non-hazardous waste treatment and disposal services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "CPC: 9441: Site remediation and clean-up services"
+      ],
+      "subcompartments": []
+    },
+    {
+      "elementary": true,
+      "name": [
+        "Elementary Flows",
+        "Elementary flows",
+        "Other elementary flows",
+        "elementary flows"
+      ],
+      "subcompartments": [
+        {
+          "elementary": true,
+          "name": [
+            "Emissions"
+          ],
+          "subcompartments": [
+            {
+              "elementary": true,
+              "name": [
+                "air",
+                "Air",
+                "Emissions to air",
+                "Emissions to air, unspecified",
+                "Group NMVOC to air",
+                "Halogenated organic emissions to air",
+                "Heavy metals to air",
+                "Inorganic emissions to air",
+                "Organic emissions to air (group VOC)",
+                "Other emissions to air",
+                "Particles to air",
+                "Radioactive emissions to air",
+                "fossil"
+              ],
+              "subcompartments": [
+                {
+                  "elementary": true,
+                  "name": [
+                    "Emissions to air, unspecified (long-term)"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "elementary": true,
+                  "name": [
+                    "Emissions to lower stratosphere and upper troposphere",
+                    "lower stratosphere + upper troposphere"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "elementary": true,
+                  "name": [
+                    "indoor"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "elementary": true,
+                  "name": [
+                    "low population density, long-term"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "elementary": true,
+                  "name": [
+                    "rural air",
+                    "Emissions to non-urban air or from high stacks",
+                    "low population density",
+                    "low. pop.",
+                    "non-urban air or from high stacks"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "elementary": true,
+                  "name": [
+                    "stratosphere"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "elementary": true,
+                  "name": [
+                    "urban air",
+                    "Emissions to urban air close to ground",
+                    "high population density",
+                    "urban air close to ground"
+                  ],
+                  "subcompartments": []
+                }
+              ]
+            },
+            {
+              "elementary": true,
+              "name": [
+                "soil",
+                "Emissions to soil",
+                "Emissions to soil, unspecified",
+                "Soil"
+              ],
+              "subcompartments": [
+                {
+                  "elementary": true,
+                  "name": [
+                    "agricultural",
+                    "Emissions to agricultural soil",
+                    "Heavy metals to agricultural soil",
+                    "Other emissions to agricultural soil",
+                    "Pesticides to agricultural soil"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "elementary": true,
+                  "name": [
+                    "forestry"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "elementary": true,
+                  "name": [
+                    "industrial",
+                    "Emissions to industrial soil",
+                    "Emissions to non-agricultural soil",
+                    "Heavy metals to industrial soil",
+                    "Other emissions to industrial soil"
+                  ],
+                  "subcompartments": []
+                }
+              ]
+            },
+            {
+              "elementary": true,
+              "name": [
+                "water",
+                "Emissions to water",
+                "Emissions to water, unspecified",
+                "Water"
+              ],
+              "subcompartments": [
+                {
+                  "elementary": true,
+                  "name": [
+                    "Emissions to water, unspecified (long-term)"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "elementary": true,
+                  "name": [
+                    "fresh water",
+                    "Analytical measures to fresh water",
+                    "Emissions to fresh water",
+                    "Heavy metals to fresh water",
+                    "Inorganic emissions to fresh water",
+                    "Organic emissions to fresh water",
+                    "Other emissions to fresh water",
+                    "Particles to fresh water",
+                    "Radioactive emissions to fresh water",
+                    "freshwater"
+                  ],
+                  "subcompartments": [
+                    {
+                      "elementary": true,
+                      "name": [
+                        "ecoinvent long-term to fresh water"
+                      ],
+                      "subcompartments": []
+                    },
+                    {
+                      "elementary": true,
+                      "name": [
+                        "ground-"
+                      ],
+                      "subcompartments": []
+                    },
+                    {
+                      "elementary": true,
+                      "name": [
+                        "ground-, long-term"
+                      ],
+                      "subcompartments": []
+                    },
+                    {
+                      "elementary": true,
+                      "name": [
+                        "lake"
+                      ],
+                      "subcompartments": []
+                    },
+                    {
+                      "elementary": true,
+                      "name": [
+                        "river"
+                      ],
+                      "subcompartments": []
+                    },
+                    {
+                      "elementary": true,
+                      "name": [
+                        "surface water"
+                      ],
+                      "subcompartments": []
+                    }
+                  ]
+                },
+                {
+                  "elementary": true,
+                  "name": [
+                    "low population density, long-term"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "elementary": true,
+                  "name": [
+                    "ocean",
+                    "Emissions to sea water",
+                    "Heavy metals to sea water",
+                    "Other emissions to sea water",
+                    "sea water"
+                  ],
+                  "subcompartments": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "elementary": true,
+          "name": [
+            "resources",
+            "Crude oil (resource)",
+            "Energy resources",
+            "Material resources",
+            "Natural gas (resource)",
+            "Non renewable energy resources",
+            "Renewable resources",
+            "Resources",
+            "natural resource",
+            "renewable",
+            "resource"
+          ],
+          "subcompartments": [
+            {
+              "elementary": true,
+              "name": [
+                "Land use",
+                "land"
+              ],
+              "subcompartments": [
+                {
+                  "elementary": true,
+                  "name": [
+                    "Hemeroby"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "elementary": true,
+                  "name": [
+                    "Land occupation"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "elementary": true,
+                  "name": [
+                    "Land transformation"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "elementary": true,
+                  "name": [
+                    "Occupation"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "elementary": true,
+                  "name": [
+                    "Transformation"
+                  ],
+                  "subcompartments": []
+                }
+              ]
+            },
+            {
+              "elementary": true,
+              "name": [
+                "Resources from air",
+                "Renewable element resources from air",
+                "Renewable energy resources from air",
+                "Renewable material resources from air",
+                "in air"
+              ],
+              "subcompartments": []
+            },
+            {
+              "elementary": true,
+              "name": [
+                "Resources from biosphere",
+                "Renewable energy resources from biosphere",
+                "biotic"
+              ],
+              "subcompartments": []
+            },
+            {
+              "elementary": true,
+              "name": [
+                "Resources from ground",
+                "Non-renewable element resources from ground",
+                "Non-renewable energy resources from ground",
+                "Non-renewable material resources from ground",
+                "Renewable energy resources from ground",
+                "Renewable material resources from ground",
+                "fossil-",
+                "ground-",
+                "in ground"
+              ],
+              "subcompartments": []
+            },
+            {
+              "elementary": true,
+              "name": [
+                "Resources from water",
+                "Non-renewable element resources from water",
+                "Non-renewable material resources from water",
+                "Renewable energy resources from water",
+                "Renewable material resources from water",
+                "Water",
+                "in water"
+              ],
+              "subcompartments": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": [
+        "ISIC rev.4 ecoinvent: 2011:Manufacture of basic chemicals"
+      ],
+      "subcompartments": []
+    },
+    {
+      "name": [
+        "Intermediate Flows",
+        "Intermediate flows",
+        "intermediate flows"
+      ],
+      "subcompartments": [
+        {
+          "name": [
+            "Air Transportation"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "Scheduled Freight Air Transportation"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "Biofuels Manufacturing"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "Biodiesel"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Ethanol"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "By-product classification: Recyclable"
+          ],
+          "subcompartments": []
+        },
+        {
+          "name": [
+            "By-product classification: Waste"
+          ],
+          "subcompartments": []
+        },
+        {
+          "name": [
+            "By-product classification: allocatable product"
+          ],
+          "subcompartments": []
+        },
+        {
+          "name": [
+            "CPC: 17100: Electrical energy"
+          ],
+          "subcompartments": []
+        },
+        {
+          "name": [
+            "CPC: 37510: Non-refractory mortars and concretes"
+          ],
+          "subcompartments": []
+        },
+        {
+          "name": [
+            "CUTOFF Flows"
+          ],
+          "subcompartments": []
+        },
+        {
+          "name": [
+            "Chemical Manufacturing"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "All Other Basic Inorganic Chemical Manufacturing"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "All Other Basic Organic Chemical Manufacturing"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Converting postconsumer PET to pellet"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Ethyl alcohol manufacturing"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Nitrogenous Fertilizer Manufacturing"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Petrochemical Manufacturing"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Phosphatic Fertilizer Manufacturing"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Plastics Material and Resin Manufacturing"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Processing postconsumer HDPE to pellet"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Processing postconsumer PET to flake"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "Crop Production"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "Biomass"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Corn Farming"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Cotton Farming"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Oilseed (except Soybean) Farming"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Other Noncitrus Fruit Farming"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Potato Farming"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Rice Farming"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Soybean Farming"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Support activities for crop production"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Wheat Farming"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "Deposited goods"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "Consumer waste"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Hazardous waste"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Radioactive waste"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Stockpile goods"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "Ecoinvent"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "Plastics"
+              ],
+              "subcompartments": [
+                {
+                  "name": [
+                    "polymers"
+                  ],
+                  "subcompartments": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": [
+            "Elec. Equip., Appliance, and Comp. Manufacturing"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "Other material"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "End-of-life treatment"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "Energy recycling"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Landfilling"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Waste water treatment"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "Energy carriers and technologies"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "Crude oil based fuels"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Electricity"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Hard coal based fuels"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Heat and steam"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Lignite based fuels"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Mechanical energy"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Other non-renewable fuels"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Renewable fuels"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "Fabricated Metal Product Manufacturing"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "Architectural and Structural Metals Manufacturing"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Misc. Fabricated Metal Product Manufacturing"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "Forestry and Logging"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "Forest Nurseries, Gathering Forest Prod."
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Logging"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "ISIC rev.4 ecoinvent: 012:Growing of perennial crops"
+          ],
+          "subcompartments": []
+        },
+        {
+          "name": [
+            "Intermediate flow"
+          ],
+          "subcompartments": []
+        },
+        {
+          "name": [
+            "Materials production"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "Glass and ceramics"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Inorganic chemicals"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Metals and semimetals"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Organic chemicals"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Other materials"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Other mineralic materials"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Plastics"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Water"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Wood"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "organic chemicals"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "organic matter"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "paper"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "Mining (except Oil and Gas)"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "All Other Metal Ore Mining"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Anthracite Mining"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Bit. Coal and Lignite Surface Mining"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Coal Mining"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Limestone Mining and Quarrying"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Uranium-Radium-Vanadium Ore Mining"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "Nonmetallic Mineral Product Manufacturing"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "Cement Manufacturing"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Glass and Glass Product Manufacturing"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Gypsum Product Manufacturing"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Lime Manufacturing"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "Oil and Gas Extraction"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "Crude Petroleum and Natural Gas Extraction"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "Others"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "Areas"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "CRIM-SAFRI"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Product model"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "Paper Manufacturing"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "Converted Paper Product Manufacturing"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Pulp, Paper, and Paperboard Mills"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "Petroleum and Coal Products Manufacturing"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "Petroleum Refineries"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "Plastics and Rubber Products Manufacturing"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "Plastics Product Manufacturing"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "Primary Metal Manufacturing"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "Alumina Refining"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Aluminum Foundries (except Die-Casting)"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Iron and Steel Mills"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Other Aluminum Rolling and Drawing"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Primary Aluminum Production"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Rolled Steel Shape Manufacturing"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Rolling and Drawing of Purchased Steel"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Secondary Smelting and Alloying of Aluminum"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Steel Foundries (except investment)"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "Production residues in life cycle"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "Hazardous waste for disposal"
+              ],
+              "subcompartments": [
+                {
+                  "name": [
+                    "Hazardous non organic waste for disposal"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "name": [
+                    "Hazardous organic waste for disposal"
+                  ],
+                  "subcompartments": []
+                }
+              ]
+            },
+            {
+              "name": [
+                "Hazardous waste for recovery"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Waste for disposal"
+              ],
+              "subcompartments": [
+                {
+                  "name": [
+                    "Non hazardous non organic waste for disposal"
+                  ],
+                  "subcompartments": []
+                }
+              ]
+            },
+            {
+              "name": [
+                "Waste for recovery"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "Rail Transportation"
+          ],
+          "subcompartments": []
+        },
+        {
+          "name": [
+            "Systems"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "Construction"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Packaging"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Paints and chemical preparations"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "Transit and Ground Passenger Transportation"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "Interurban and Rural Bus Transportation"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Other Transit and Ground Passenger Transportation"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "School and Employee Bus Transportation"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Urban Transit Systems"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "Transport services"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "Other transport"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "Transportation Equipment Manufacturing"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "Motor Vehicle Body Manufacturing"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "Truck Transportation"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "General Freight Trucking"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "US LCI Database"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "Products and Intermediates"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "Utilities"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "Electric Power Distribution"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Fossil Fuel Electric Power Generation"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Nuclear Electric Power Generation"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Other Electric Power Generation"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Steam and Air-Conditioning Supply"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "Valuable substances"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "Energy carrier"
+              ],
+              "subcompartments": [
+                {
+                  "name": [
+                    "Electric power"
+                  ],
+                  "subcompartments": [
+                    {
+                      "name": [
+                        "System-dependent"
+                      ],
+                      "subcompartments": []
+                    }
+                  ]
+                },
+                {
+                  "name": [
+                    "Fuels"
+                  ],
+                  "subcompartments": [
+                    {
+                      "name": [
+                        "Biomass fuels"
+                      ],
+                      "subcompartments": [
+                        {
+                          "name": [
+                            "Biomass for energy use"
+                          ],
+                          "subcompartments": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": [
+                        "Crude oil products"
+                      ],
+                      "subcompartments": [
+                        {
+                          "name": [
+                            "Crude oil, at consumer"
+                          ],
+                          "subcompartments": []
+                        },
+                        {
+                          "name": [
+                            "Refinery products"
+                          ],
+                          "subcompartments": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": [
+                        "Hard coal products"
+                      ],
+                      "subcompartments": [
+                        {
+                          "name": [
+                            "Coke, at production"
+                          ],
+                          "subcompartments": []
+                        },
+                        {
+                          "name": [
+                            "Hard coal, at consumer"
+                          ],
+                          "subcompartments": []
+                        },
+                        {
+                          "name": [
+                            "Hard coal, at production"
+                          ],
+                          "subcompartments": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": [
+                        "Lignite products"
+                      ],
+                      "subcompartments": [
+                        {
+                          "name": [
+                            "Lignite, at consumer"
+                          ],
+                          "subcompartments": []
+                        },
+                        {
+                          "name": [
+                            "Lignite, at production"
+                          ],
+                          "subcompartments": []
+                        },
+                        {
+                          "name": [
+                            "Others"
+                          ],
+                          "subcompartments": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": [
+                        "Natural gas products"
+                      ],
+                      "subcompartments": [
+                        {
+                          "name": [
+                            "LPG, at production"
+                          ],
+                          "subcompartments": []
+                        },
+                        {
+                          "name": [
+                            "Natural gas, at consumer"
+                          ],
+                          "subcompartments": []
+                        },
+                        {
+                          "name": [
+                            "Natural gas, at production"
+                          ],
+                          "subcompartments": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": [
+                        "Other fuels"
+                      ],
+                      "subcompartments": []
+                    },
+                    {
+                      "name": [
+                        "Uranium products"
+                      ],
+                      "subcompartments": []
+                    }
+                  ]
+                },
+                {
+                  "name": [
+                    "Mechanical energy"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "name": [
+                    "Thermal energy"
+                  ],
+                  "subcompartments": [
+                    {
+                      "name": [
+                        "steam"
+                      ],
+                      "subcompartments": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": [
+                "Materials"
+              ],
+              "subcompartments": [
+                {
+                  "name": [
+                    "Agro chemicals"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "name": [
+                    "Amino acids"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "name": [
+                    "Intermediate products"
+                  ],
+                  "subcompartments": [
+                    {
+                      "name": [
+                        "Inorganic intermediate products"
+                      ],
+                      "subcompartments": []
+                    },
+                    {
+                      "name": [
+                        "Organic intermediate products"
+                      ],
+                      "subcompartments": []
+                    }
+                  ]
+                },
+                {
+                  "name": [
+                    "Leather production"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "name": [
+                    "Materials from renewable raw materials"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "name": [
+                    "Metals"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "name": [
+                    "Minerals"
+                  ],
+                  "subcompartments": [
+                    {
+                      "name": [
+                        "Limestone"
+                      ],
+                      "subcompartments": []
+                    }
+                  ]
+                },
+                {
+                  "name": [
+                    "Operating materials"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "name": [
+                    "Packaging"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "name": [
+                    "Paints"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "name": [
+                    "Plastics"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "name": [
+                    "Renewable primary products"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "name": [
+                    "Synthetic leather"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "name": [
+                    "Textile"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "name": [
+                    "Textiles and leather"
+                  ],
+                  "subcompartments": []
+                }
+              ]
+            },
+            {
+              "name": [
+                "Systems"
+              ],
+              "subcompartments": [
+                {
+                  "name": [
+                    "Assemblies"
+                  ],
+                  "subcompartments": [
+                    {
+                      "name": [
+                        "Automotive assemblies"
+                      ],
+                      "subcompartments": []
+                    },
+                    {
+                      "name": [
+                        "Building industry"
+                      ],
+                      "subcompartments": []
+                    },
+                    {
+                      "name": [
+                        "Electrical installation"
+                      ],
+                      "subcompartments": []
+                    },
+                    {
+                      "name": [
+                        "Elevator & escalator"
+                      ],
+                      "subcompartments": []
+                    },
+                    {
+                      "name": [
+                        "Heatings"
+                      ],
+                      "subcompartments": []
+                    },
+                    {
+                      "name": [
+                        "Lighting"
+                      ],
+                      "subcompartments": []
+                    },
+                    {
+                      "name": [
+                        "Other home appliances"
+                      ],
+                      "subcompartments": []
+                    },
+                    {
+                      "name": [
+                        "heat pumps"
+                      ],
+                      "subcompartments": []
+                    }
+                  ]
+                },
+                {
+                  "name": [
+                    "Infrastructure"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "name": [
+                    "Material systems"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "name": [
+                    "Non-material systems"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "name": [
+                    "Paint-systems"
+                  ],
+                  "subcompartments": []
+                },
+                {
+                  "name": [
+                    "Parts"
+                  ],
+                  "subcompartments": [
+                    {
+                      "name": [
+                        "Electronic components"
+                      ],
+                      "subcompartments": [
+                        {
+                          "name": [
+                            "Components"
+                          ],
+                          "subcompartments": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": [
+                        "Metal parts"
+                      ],
+                      "subcompartments": []
+                    },
+                    {
+                      "name": [
+                        "Other parts"
+                      ],
+                      "subcompartments": []
+                    },
+                    {
+                      "name": [
+                        "Parts from renewable materials"
+                      ],
+                      "subcompartments": []
+                    },
+                    {
+                      "name": [
+                        "Plastic parts"
+                      ],
+                      "subcompartments": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": [
+            "Waste Management and Remediation Services"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "Collection of postconsumer containers"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Collection of postconsumer products"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Solid Waste Collection"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Sorting, separating mixed recyclables"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Waste Collection"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "Wastes"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "Construction waste"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Mining waste"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Production residues"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Radioactive waste"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "heavy metals"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "Water Transportation"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "Deep Sea Freight Transportation"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Inland Water Freight Transportation"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "Wood Product Manufacturing"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "Chemical Manufacturing"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Cut Stock, Resawing Lumber, and Planing"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Engineered Wood Member (ex. Truss) Manufacturing"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Forestry and Logging"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Sawmills"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Softwood Veneer and Plywood Manufacturing"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Support for Agriculture and Forestry"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "Wood Preservation"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "economic"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                "primary production factor"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "final-waste-flow"
+          ],
+          "subcompartments": [
+            {
+              "name": [
+                " unspecified treatment"
+              ],
+              "subcompartments": []
+            },
+            {
+              "name": [
+                "unspecified treatment"
+              ],
+              "subcompartments": []
+            }
+          ]
+        },
+        {
+          "name": [
+            "non-material"
+          ],
+          "subcompartments": []
+        },
+        {
+          "name": [
+            "others"
+          ],
+          "subcompartments": []
+        }
+      ]
+    }
+  ]
+}

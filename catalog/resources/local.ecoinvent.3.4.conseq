@@ -1,0 +1,17 @@
+{
+  "local.ecoinvent.3.4.conseq": [
+    {
+      "dataSource": "/data/LCI/Ecoinvent/3.4/ecoinvent 3.4_consequential_ecoSpold02",
+      "dataSourceType": "EcospoldV2Archive",
+      "interfaces": [
+        "inventory",
+        "basic",
+        "index"
+      ],
+      "priority": 50,
+      "static": false,
+      "prefix": "datasets",
+      "config": {}
+    }
+  ]
+}
