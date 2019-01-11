@@ -40,15 +40,18 @@ def _generate_c_matrix(method, biosphere_dict):
 
 class Bw2McaContainer(object):
     @classmethod
-    def from_file(cls, filename):
-        folder = os.path.dirname(os.path.abspath(filename))
-        activity_id = re.search('%s_(.+)\.json\.gz$' % FILE_PREFIX, filename).group(1)
+    def from_file(cls, filename, folder=None):
+        if folder is None:
+            folder = os.path.dirname(os.path.abspath(filename))
+        if not os.path.isabs(filename):
+            filename = os.path.join(folder, filename)
         j = from_json(filename)
+
+        activity_id = re.search('%s_(.+)\.json\.gz$' % FILE_PREFIX, filename).group(1)
         act = next(a for a in Database(j['database']) if a.get('activity') == activity_id)
-        steps = j['steps']
+
         b = cls(act, folder=folder, _do_load=False)
         b._install_data(j)
-        b.steps = steps
         return b
 
     def _install_data(self, j):
@@ -58,17 +61,19 @@ class Bw2McaContainer(object):
         for k, v in j['results'].items():
             self._res[k].extend(v)
 
+        self.steps = j['steps']
+
     def _load_file(self, steps):
         if steps is None:
             steps = 0
         if os.path.exists(self.full_path):
             j = from_json(self.full_path)
             assert(j['database'] == self.database)
-            if steps < j['steps']:
-                steps = j['steps']
+            if int(steps) > j['steps']:
+                j['steps'] = steps
             self._install_data(j)
-
-        self.steps = int(steps)
+        else:
+            self.steps = steps
 
     def __init__(self, activity, *args, folder=None, steps=None, _do_load=True):
         self._folder = folder
@@ -82,7 +87,7 @@ class Bw2McaContainer(object):
         if _do_load:
             self._load_file(steps)
         for m in args:
-            self.add_method(m)
+            self.add_method(m, _suppress_update=True)
         self._update_results()
 
     @property
@@ -146,7 +151,9 @@ class Bw2McaContainer(object):
 
     @steps.setter
     def steps(self, value):
-        self._steps = int(value)
+        value = int(value)
+        if value > self._steps:
+            self._steps = value
         self._update_results()
 
     def scores(self, method):

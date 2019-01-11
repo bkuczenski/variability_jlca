@@ -1,7 +1,7 @@
 {
   "local.lcia.ecoinvent.3.1.2014_08_13": [
     {
-      "dataSource": "/data/LCI/LCIA implementation v3.1 2014_08_13.xlsx",
+      "dataSource": "/data/LCI/Ecoinvent/LCIA/LCIA implementation v3.1 2014_08_13.xlsx",
       "dataSourceType": "EcoinventLcia",
       "interfaces": [
         "basic",
@@ -9,7 +9,7 @@
         "quantity"
       ],
       "priority": 50,
-      "static": true,
+      "static": false,
       "ns_uuid": "46802ca5-8b25-398c-af10-2376adaa4623",
       "config": {}
     }

@@ -1,7 +1,7 @@
 {
   "local.ecoinvent.3.4.cutoff.index__20180905": [
     {
-      "dataSource": "/data/GitHub/2018/bw2-uncertainty/catalog/index/ffc0f70037f9e921067e85ac7e2d4ff0ba1bc3b5.json.gz",
+      "dataSource": "$CAT_ROOT/index/ffc0f70037f9e921067e85ac7e2d4ff0ba1bc3b5.json.gz",
       "dataSourceType": "json",
       "interfaces": [
         "basic",
@@ -13,16 +13,15 @@
       "config": {}
     },
     {
-      "dataSource": "/data/GitHub/2018/bw2-uncertainty/catalog/archives/local.ecoinvent.3.4.cutoff.index__20180905_background",
+      "dataSource": "$CAT_ROOT/archives/local.ecoinvent.3.4.cutoff.index__20180905_background.mat",
       "dataSourceType": "Background",
       "interfaces": [
-        "basic",
-        "background"
+        "background",
+        "basic"
       ],
       "priority": 99,
       "static": false,
       "save_after": true,
-      "filetype": ".mat",
       "_internal": true,
       "config": {}
     }
