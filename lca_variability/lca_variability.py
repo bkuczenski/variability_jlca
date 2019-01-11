@@ -179,6 +179,10 @@ class MarketIterator(object):
         return -1
 
     @property
+    def quantities(self):
+        return [q for q in self._quantities]
+
+    @property
     def markets(self):
         return [res.market for res in self._results]
 
