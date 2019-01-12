@@ -52,6 +52,7 @@ class Bw2McaContainer(object):
 
         b = cls(act, folder=folder, _do_load=False)
         b._install_data(j)
+        b._update_results()
         return b
 
     def _install_data(self, j):
@@ -61,7 +62,7 @@ class Bw2McaContainer(object):
         for k, v in j['results'].items():
             self._res[k].extend(v)
 
-        self.steps = j['steps']
+        self._steps = j['steps']
 
     def _load_file(self, steps):
         if steps is None:
@@ -69,11 +70,10 @@ class Bw2McaContainer(object):
         if os.path.exists(self.full_path):
             j = from_json(self.full_path)
             assert(j['database'] == self.database)
-            if int(steps) > j['steps']:
-                j['steps'] = steps
+            j['steps'] = max([steps, int(j['steps'])])
             self._install_data(j)
         else:
-            self.steps = steps
+            self._steps = steps
 
     def __init__(self, activity, *args, folder=None, steps=None, _do_load=True):
         self._folder = folder
@@ -86,9 +86,11 @@ class Bw2McaContainer(object):
         self._steps = 0
         if _do_load:
             self._load_file(steps)
-        for m in args:
-            self.add_method(m, _suppress_update=True)
-        self._update_results()
+        self.add_methods(*args)
+
+    @property
+    def activity(self):
+        return self._a
 
     @property
     def database(self):
@@ -124,7 +126,10 @@ class Bw2McaContainer(object):
 
     @property
     def _up_to_date(self):
-        return all(len(v) >= self.steps for v in self._res.values())
+        ck = all(len(v) >= self.steps for v in self._res.values())
+        if ck and len(self._res) > 0:
+            print('Up to date with %d samples, %d methods' % (self.steps, len(self._res)))
+        return ck
 
     def _update_results(self):
         """
