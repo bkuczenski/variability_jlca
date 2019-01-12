@@ -5,7 +5,14 @@ class MarketImpactRangeResult(object):
     """
     An object which computes and stores the LCIA results for market suppliers.
     """
-    def __init__(self, market, index, *quantities, saved_scores=None):
+    def __init__(self, market, *quantities, index=None, saved_scores=None):
+        """
+        Note: use index=None to create a free-standing
+        :param market:
+        :param quantities:
+        :param index: [None] may only be set once
+        :param saved_scores: [None] to restore scores from JSON
+        """
         self._index = index
         self._market = market
         self._flowref = market.reference().flow.external_ref
@@ -31,6 +38,12 @@ class MarketImpactRangeResult(object):
     @property
     def index(self):
         return self._index
+
+    @index.setter
+    def index(self, val):
+        if self._index is not None:
+            raise ValueError('Index already set!')
+        self._index = val
 
     @property
     def scored(self):
@@ -132,7 +145,8 @@ class MarketIterator(object):
         for r in j['results']:
             idx = r['index']
             assert idx == len(mi)
-            res = MarketImpactRangeResult(catalog.query(j['origin']).get(r['market_external_ref']), idx, *quantities,
+            res = MarketImpactRangeResult(catalog.query(j['origin']).get(r['market_external_ref']), *quantities,
+                                          index=idx,
                                           saved_scores=r['scores'])
             mi._res_add(res)
         return mi
@@ -151,14 +165,26 @@ class MarketIterator(object):
         self._quantities = quantities
 
     def _res_add(self, res):
+        l = len(self._results)
         self._results.append(res)
+        if res.index is None:
+            res.index = l
         assert self._results[res.index] is res
         self._result_map[res.market.external_ref] = res
 
-    def _res_gen(self):
-        mkt = next(self._mkt_iterator)
-        res = MarketImpactRangeResult(mkt, len(self._results), *self._quantities)
+    def _res_gen(self, ext_ref=None):
+        if ext_ref is None:
+            mkt = next(self._mkt_iterator)
+            if mkt.external_ref in self._result_map:
+                return self._result_map[mkt.external_ref]
+        else:
+            # check result_map to avoid running the query if possible
+            if ext_ref in self._result_map:
+                return self._result_map[ext_ref]
+            mkt = self._query.get(ext_ref)
+        res = MarketImpactRangeResult(mkt, *self._quantities, index=len(self._results))
         self._res_add(res)
+        self._res_populate(res)
         return res
 
     def _res_populate(self, res):
@@ -168,15 +194,18 @@ class MarketIterator(object):
         return self
 
     def __next__(self):
-        res = self._res_gen()
-        self._res_populate(res)
-        return res
+        return self._res_gen()
 
+    '''# what is this for?
     def get_next(self):
         mkt = next(self._mkt_iterator)
         if mkt.external_ref in self._result_map:
             return self._result_map[mkt.external_ref].index
         return -1
+    '''
+
+    def get_result(self, ext_ref):
+        return self._res_gen(ext_ref=ext_ref)
 
     @property
     def quantities(self):
