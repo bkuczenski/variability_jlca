@@ -8,7 +8,7 @@ class MarketImpactRangeResult(object):
     def __init__(self, market, *quantities, index=None, saved_scores=None):
         """
         Note: use index=None to create a free-standing
-        :param market:
+        :param market: A process reference for a market process, supporting inventory queries
         :param quantities:
         :param index: [None] may only be set once
         :param saved_scores: [None] to restore scores from JSON
@@ -62,6 +62,12 @@ class MarketImpactRangeResult(object):
             self._scores[qty.external_ref, ext_ref] = res.total()
 
     def add_scores(self, bg, **kwargs):
+        """
+
+        :param bg: an interface supporting background queries (e.g. lci())
+        :param kwargs: passed to lci()
+        :return:
+        """
         self._add_scores_for_inventory(bg, self._market.external_ref, **kwargs)
         for x in self._suppliers:
             self._add_scores_for_inventory(bg, x.termination, **kwargs)
@@ -154,7 +160,7 @@ class MarketIterator(object):
     def __init__(self, query, *quantities):
         """
 
-        :param query: a catalog query that provides full bg + ix + inv implementation
+        :param query: a catalog query with available background, index, and inventory implementations
         :param quantities: 1 or more quantity refs that deliver working LCIA results
         """
         self._query = query

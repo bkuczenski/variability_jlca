@@ -44,7 +44,7 @@ class MarketMonteCarloIterator(object):
 
         self._biosphere_dict = None
         self._inventory = None
-        self._last_index = None
+        self._choices = []
 
         for x in self._suppliers:
             demand = dict(demand_base)
@@ -72,19 +72,24 @@ class MarketMonteCarloIterator(object):
 
     @property
     def last_index(self):
-        return self._last_index
+        return self._choices[-1]
+
+    @property
+    def choices(self):
+        for x in self._choices:
+            yield x
 
     def __iter__(self):
         return self
 
     def __next__(self):
         r = next(self._chooser)
+        self._choices.append(r)
         m = self._mca[r]
         next(m)
         if self._biosphere_dict is None:
             self._biosphere_dict = m._biosphere_dict  # assuming this is going to be the same for all
         self._inventory = m.inventory
-        self._last_index = r
         return r
 
 
@@ -95,6 +100,19 @@ class Bw2McaMarketWeight(Bw2McaContainer):
     def __init__(self, market, *args, **kwargs):
         self._sol = MarketMonteCarloIterator(market)
         super(Bw2McaMarketWeight, self).__init__(market, *args, **kwargs)
+
+    @property
+    def suppliers(self):
+        return self._sol.suppliers
+
+    @property
+    def market_shares(self):
+        return self._sol.market_shares
+
+    @property
+    def choices(self):
+        for x in self._sol.choices:
+            yield x
 
     @property
     def biosphere(self):
