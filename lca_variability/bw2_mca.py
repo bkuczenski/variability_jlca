@@ -18,9 +18,6 @@ from bw2calc.matrices import MatrixBuilder
 from bw2calc.utils import get_filepaths, global_index
 
 
-FILE_PREFIX = 'BW2_MCA'
-
-
 def _generate_c_matrix(method, biosphere_dict):
     """
     this whole segment taken from bw2calc.lca.LCA.load_lcia_data()
@@ -39,6 +36,9 @@ def _generate_c_matrix(method, biosphere_dict):
 
 
 class Bw2McaContainer(object):
+
+    FILE_PREFIX = 'BW2_null'
+
     @classmethod
     def from_file(cls, filename, folder=None):
         if folder is None:
@@ -47,7 +47,7 @@ class Bw2McaContainer(object):
             filename = os.path.join(folder, filename)
         j = from_json(filename)
 
-        activity_id = re.search('%s_(.+)\.json\.gz$' % FILE_PREFIX, filename).group(1)
+        activity_id = re.search('%s_(.+)\.json\.gz$' % cls.FILE_PREFIX, filename).group(1)
         act = next(a for a in Database(j['database']) if a.get('activity') == activity_id)
 
         b = cls(act, folder=folder, _do_load=False)
@@ -78,8 +78,6 @@ class Bw2McaContainer(object):
     def __init__(self, activity, *args, folder=None, steps=None, _do_load=True):
         self._folder = folder
         self._a = activity
-        self._sol = MonteCarloLCA({self._a: 1}, method=None)
-        next(self._sol)  # appears to be necessary to force generation of biosphere dict, not sure
         self._m_map = dict()  # map method name (hashable) to tuple
         self._c_ms = dict()  # c matrices
         self._res = defaultdict(list)
@@ -87,6 +85,13 @@ class Bw2McaContainer(object):
         if _do_load:
             self._load_file(steps)
         self.add_methods(*args)
+
+    @property
+    def biosphere(self):
+        raise NotImplementedError
+
+    def _next_inventory(self):
+        raise NotImplementedError
 
     @property
     def activity(self):
@@ -113,7 +118,7 @@ class Bw2McaContainer(object):
 
     @property
     def filename(self):
-        return '%s_%s.json.gz' % (FILE_PREFIX, self._a.get('activity'))
+        return '%s_%s.json.gz' % (self.FILE_PREFIX, self._a.get('activity'))
 
     def _write_file(self):
         j = {'database': self.database,
@@ -136,17 +141,21 @@ class Bw2McaContainer(object):
         Ensure that every listed method has [at least] the required number of steps
         :return:
         """
+        """
+        Ensure that every listed method has [at least] the required number of steps
+        :return:
+        """
         if self._up_to_date:
             return
         tstart = time.time()
         count = rcount = 0
         while not self._up_to_date:
             count += 1
-            next(self._sol)
+            inventory = self._next_inventory()
             for k, cm in self._c_ms.items():
                 if len(self._res[k]) >= self.steps:
                     continue
-                res = cm * self._sol.inventory
+                res = cm * inventory
                 self._res[k].append(res.sum())
                 rcount += 1
             if count % 100 == 0:
@@ -170,6 +179,7 @@ class Bw2McaContainer(object):
 
         :param method: an LCIA method digestible by brightway (3-tuple)
         :param key: [None] the serializable key to represent the method (default is constructed as '__'.join(method))
+        :param _suppress_update:
         :return:
         """
         if key is None:
@@ -177,7 +187,7 @@ class Bw2McaContainer(object):
         self._m_map[key] = method
         if method not in self.methods:
             self._res[key].extend([])
-        self._c_ms[key] = _generate_c_matrix(method, self._sol._biosphere_dict)
+        self._c_ms[key] = _generate_c_matrix(method, self.biosphere)
         if _suppress_update:
             return
         self._update_results()
@@ -188,12 +198,31 @@ class Bw2McaContainer(object):
         self._update_results()
 
 
+class Bw2McaSimple(Bw2McaContainer):
+
+    FILE_PREFIX = 'BW2_MCA'
+
+    def __init__(self, activity, *args, **kwargs):
+        self._sol = MonteCarloLCA({activity: 1}, method=None)
+        self._sol.load_lci_data()
+        self._biosphere_dict = self._sol._biosphere_dict
+        super(Bw2McaSimple, self).__init__(activity, *args, **kwargs)
+
+    @property
+    def biosphere(self):
+        return self._biosphere_dict
+
+    def _next_inventory(self):
+        next(self._sol)
+        return self._sol.inventory
+
+
 def initialize_activity(db_name, activity_id, *args, steps=100):
     try:
         act = next(a for a in Database(db_name) if a.get('activity').startswith(activity_id))
     except StopIteration:
         raise ValueError('Activity not found: %s'% activity_id)
-    return Bw2McaContainer(act, *args, steps=steps)
+    return Bw2McaSimple(act, *args, steps=steps)
 
 
 '''

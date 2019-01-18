@@ -164,9 +164,14 @@ class MarketIterator(object):
         self._result_map = dict()
         self._quantities = quantities
 
+    @property
+    def origin(self):
+        return self._query.origin
+
     def _res_add(self, res):
         l = len(self._results)
         self._results.append(res)
+
         if res.index is None:
             res.index = l
         assert self._results[res.index] is res
