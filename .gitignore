@@ -103,3 +103,6 @@ venv.bak/
 # mypy
 .mypy_cache/
 .idea/
+catalog/resources/local.ecoinvent.3.4.cutoff
+catalog/resources/local.ecoinvent.3.4.apos
+catalog/resources/local.ecoinvent.3.4.conseq
