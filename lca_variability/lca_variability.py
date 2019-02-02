@@ -96,6 +96,20 @@ class MarketImpactRangeResult(object):
     def size(self):
         return len(self._suppliers)
 
+    def reset_scores(self, market=False):
+        """
+        Drop cached LCIA scores, enabling the scores to be re-computed via add_scores()
+        :param market: [False] if False, discard supplier scores but retain scores for the market process.
+         If True, discard the entire score set.
+        :return:
+        """
+        if market:
+            self._scores = dict()  # complete reset
+        else:
+            for x in self.suppliers:
+                for q in self.quantities:
+                    self._scores.pop((q.external_ref, x))
+
     def scores(self, quantity):
         return [x for x in self._res_by_quantity(quantity)]
 
@@ -147,7 +161,8 @@ class MarketIterator(object):
         with open(filename, 'r') as fp:
             j = json.load(fp)
         quantities = [catalog.query(q['origin']).get(q['external_ref']) for q in j['quantities']]
-        mi = cls(catalog.query(j['origin']), *quantities)
+        factorize = j.pop('lu_factorization', False)
+        mi = cls(catalog.query(j['origin']), *quantities, lu_factorization=factorize)
         for r in j['results']:
             idx = r['index']
             assert idx == len(mi)
@@ -157,13 +172,17 @@ class MarketIterator(object):
             mi._res_add(res)
         return mi
 
-    def __init__(self, query, *quantities):
+    def __init__(self, query, *quantities, lu_factorization=True):
         """
 
         :param query: a catalog query with available background, index, and inventory implementations
         :param quantities: 1 or more quantity refs that deliver working LCIA results
+        :param lu_factorization: [True] Perform LU decomposition- costs about 30s first time through, in exchange for
+        speeding up LCI computations by about 10x thereafter (30-40ms vs 300-400ms). This means it's worth it if you
+        are going to do more than about 100 computations.
         """
         self._query = query
+        self._factorize = lu_factorization
         self._mkt_iterator = (mkt for mkt in self._query.processes(Name='^market for') if not
                               mkt['Name'].startswith('market for electricity'))
         self._results = []
@@ -173,6 +192,11 @@ class MarketIterator(object):
     @property
     def origin(self):
         return self._query.origin
+
+    @property
+    def results(self):
+        for k in self._results:
+            yield k
 
     def _res_add(self, res):
         l = len(self._results)
@@ -199,7 +223,10 @@ class MarketIterator(object):
         return res
 
     def _res_populate(self, res):
-        res.add_scores(self._query)
+        if self._factorize:
+            res.add_scores(self._query, solver='factorize')  # this takes about 30s the first time through
+        else:
+            res.add_scores(self._query)
 
     def __iter__(self):
         return self
@@ -243,7 +270,8 @@ class MarketIterator(object):
         return {
             'origin': self._query.origin,
             'quantities': [{'origin': q.origin, 'external_ref': q.external_ref} for q in self._quantities],
-            'results': [r.serialize() for r in self._results]
+            'results': [r.serialize() for r in self._results],
+            'lu_factorization': self._factorize
         }
 
     def save(self, filename):
