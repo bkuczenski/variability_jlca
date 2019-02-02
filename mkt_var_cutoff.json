@@ -2,19 +2,19 @@
   "origin": "local.ecoinvent.3.4.cutoff",
   "quantities": [
     {
-      "origin": "local.lcia.ecoinvent.3.1.2014_08_13",
+      "origin": "local.lcia.ecoinvent.3.1",
       "external_ref": "ReCiPe Midpoint (H), climate change, GWP100"
     },
     {
-      "origin": "local.lcia.ecoinvent.3.1.2014_08_13",
+      "origin": "local.lcia.ecoinvent.3.1",
       "external_ref": "ReCiPe Midpoint (H), terrestrial acidification, TAP100"
     },
     {
-      "origin": "local.lcia.ecoinvent.3.1.2014_08_13",
+      "origin": "local.lcia.ecoinvent.3.1",
       "external_ref": "ReCiPe Midpoint (H), photochemical oxidant formation, POFP"
     },
     {
-      "origin": "local.lcia.ecoinvent.3.1.2014_08_13",
+      "origin": "local.lcia.ecoinvent.3.1",
       "external_ref": "ReCiPe Midpoint (H), marine eutrophication, MEP"
     }
   ],
