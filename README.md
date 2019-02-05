@@ -17,3 +17,13 @@ Then:
  - 'Freight transport study' ongoing for paper- but it seems optimistic for a GLO model (bc pedigree 12241 or whatever)
 
 Other stuff I should just delete.
+
+## lca_variability
+Three main things:
+
+ - lca_variability - lca-tools catalog-based study of market variability, based on input flows matching reference flows
+ - bw2_mca - Brightway 2 hack to run multiple LCIA methods per MCS run
+ - bw2_mkt_weight - subclass to implement choice among suppliers based on market weight
+ - And then the charts - stem and hist mainly. 
+ 
+four things.
