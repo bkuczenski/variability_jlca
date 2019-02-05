@@ -122,7 +122,7 @@ def _add_mc_hist_to_ax(_ax, _data, bins=50, density=False, show_ci=False, log_co
             plt.setp(_b, visible=False)
             plt.setp(_s, color=[0.7, 0, 0.4])
         else:
-            plt.scatter(_bounds, (_yval, _yval), marker='|', s=500, c=[[0.7, 0, 0.4]])
+            plt.scatter(_bounds, (_yval, _yval), marker='|', s=600, c=[[0.7, 0, 0.4]])
 
     return vv, bins, _npres[_trim]
 
