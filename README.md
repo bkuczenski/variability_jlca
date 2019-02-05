@@ -1,4 +1,4 @@
-# variability_jlca
+# Market Variability in Ecoinvent
 Work demonstrating variability in LCIA results for ecoinvent systems outside of parametric uncertainty
 
 JuPYter notebooks
