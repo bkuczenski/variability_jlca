@@ -1,7 +1,7 @@
 # Market Variability in Ecoinvent
 Work demonstrating variability in LCIA results for ecoinvent systems outside of parametric uncertainty. The work uses `lca-tools` to compute dynamic range of market mixes / review market mixes and `brightway2` is used for Monte Carlo simulations of ecoinvent.  MCS runs are saved by default to disk as json files by UUID, so that a statistical record will continue to grow until the file is deleted.
 
-JuPYter notebooks
+## jupyter
 
 To run catalog-based first:
  - '0. Setup Catalog.ipynb'
